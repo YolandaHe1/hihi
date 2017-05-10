@@ -58,7 +58,7 @@ function rectObj(x,y,w,h){
 
 function circleObj(dia){
 	this.dia = dia;
-	this.color = color(random(100),random(255),random(255))
+	this.color = color((230),(42),(139))
 	this.x;
 	this.y;
 
