@@ -1,5 +1,5 @@
 var rects = [];
-var numRects = 140;
+var numRects = 200;
 var cir;
 function setup() {
 	createCanvas(1430, 780);
