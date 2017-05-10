@@ -30,7 +30,7 @@ function rectObj(x,y,w,h){
 	this.y = y
 	this.w = w
 	this.h = h
-	this.color = color(random(233),(22),(141))
+	this.color = color(random(233),(22),(185))
 	this.hit = false;
 
 	this.collide = function(obj){
@@ -58,7 +58,7 @@ function rectObj(x,y,w,h){
 
 function circleObj(dia){
 	this.dia = dia;
-	this.color = color(random(255),random(255),random(255))
+	this.color = color(random(100),random(255),random(255))
 	this.x;
 	this.y;
 
