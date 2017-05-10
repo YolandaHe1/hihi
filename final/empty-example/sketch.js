@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw(){
-	background((230),(193),(194));
+	background((233),(214),(224));
 
 	for(i=0;i<numRects;i++){
 		rects[i].disp();
