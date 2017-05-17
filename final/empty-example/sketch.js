@@ -2,7 +2,7 @@ var rects = [];
 var numRects = 200;
 var cir;
 function setup() {
-	createCanvas(1430, 780);
+	createCanvas(1430, 900);
 
 	for(i=0;i<numRects;i++){
 		r = new rectObj(random(width),random(height), random(10,50), random(10,80) ) // generate a rectObj
