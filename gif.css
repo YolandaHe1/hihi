@@ -1,0 +1,15 @@
+div {
+	width: 400px;
+	height: 275px;
+}
+
+.off, #home:hover .on{
+	display: block;
+}
+.on, #home:hover  .off{
+	display: none;
+}
+img {
+	width: 300px;
+	height: 206px;
+}
