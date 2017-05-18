@@ -13,7 +13,7 @@ div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: linear-gradient(234deg, #add7ff, #f6defe, #fcb2ff, #ffa7fe, #c985ff);
+	background: linear-gradient(234deg, #add7ff, #fcb2ff, #ffa7fe, #BCBBFE, #A402F5);
 	background-size: 300% 300%;
 	animation: gradient 20s infinite;
 }
