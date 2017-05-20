@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+}
+
+div {
+	margin: 0;
+}
+
+/* design1 */
+.container {
+	height: 100vh;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(234deg, #ffffff, #fcb2ff, #c258f7);
+	background-size: 300% 300%;
+	animation: gradient 20s infinite;
+}
+
+.home {
+	color: white;
+	margin-top: 38vh;
+	margin-bottom: 27px;
+	font-family: 'Lato', sans-serif;
+	font-size: 3.9vh;
+	text-align: center;
+	letter-spacing: .2em;
+	line-height: 7vh;
+}
+
+/*button*/
+.enter {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	letter-spacing: .2em;
+	text-align: center;
+	padding: 8px 13px;
+	border: 2px solid white;
+	border-radius: 8%;
+	background-color: transparent;
+}
+.enter:hover {
+	background-color: white;
+	transition: 4s;
+
+}
+
+a {
+	text-decoration: none;
+}
+/*first page*/
+
+.maincontainer {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  
+
+}
+img {
+	justify-content: space-between;
+	height: 80vh;
+
+}
+#left {
+	padding-right: 50px;
+}
+#right {
+	padding-left: 50px;
+}
+
+
+@keyframes gradient { 
+    0%{background-position:0% 13%}
+    50%{background-position:100% 88%}
+    100%{background-position:0% 13%}
+}
